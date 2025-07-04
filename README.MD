@@ -24,15 +24,6 @@ This is a lightweight lead generation tool built for the **Caprae Capital Intern
 - [SerpAPI](https://serpapi.com/)
 - `requests`, `re`, `pandas`, `dotenv`, `beautifulsoup4`
 
----
-## 📁 File Structure
-
-leadgen-tool-caprae/
-├── app.py                # Main Streamlit application
-├── .env                  # API key (excluded from GitHub)
-├── requirements.txt      # Dependencies
-├── sample.csv            # Input sample for testing
-├── README.md             # This file
 
 ---
 
@@ -57,5 +48,5 @@ This project is built solely for the Caprae Capital internship evaluation and is
 
 ---
 
-### 🙏 Built with ❤️ by Harsh Vardhan Chauhan
+### 🙏 Built by Harsh Vardhan Chauhan
 
