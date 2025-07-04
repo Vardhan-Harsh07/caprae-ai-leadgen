@@ -25,10 +25,37 @@ This is a lightweight lead generation tool built for the **Caprae Capital Intern
 - `requests`, `re`, `pandas`, `dotenv`, `beautifulsoup4`
 
 ---
+## 📁 File Structure
 
-## 📦 Setup Instructions
+leadgen-tool-caprae/
+├── app.py                # Main Streamlit application
+├── .env                  # API key (excluded from GitHub)
+├── requirements.txt      # Dependencies
+├── sample.csv            # Input sample for testing
+├── README.md             # This file
 
-1. **Clone the repo**  
-   ```bash
-   git clone https://github.com/yourusername/leadgen-tool-caprae.git
-   cd leadgen-tool-caprae
+---
+
+## 🧠 Lead Score Logic
+
+The tool checks for the presence of key terms in the company name such as:  
+["AI", "Tech", "Analytics", "Machine Learning", "Data"]  
+Each matched keyword contributes +2 points. This is a lightweight heuristic to help prioritize leads relevant to Caprae’s AI and SaaS investment theses.
+
+## 📊 Sample Output Format
+
+| Company     | Domain           | Email                   | Lead Score |
+|-------------|------------------|--------------------------|------------|
+| OpenAI      | openai.com       | info@openai.com          | 6          |
+| Razorpay    | razorpay.com     | contact@razorpay.com     | 4          |
+| Freshworks  | freshworks.com   | support@freshworks.com   | 6          |
+
+
+## 🧾 License
+
+This project is built solely for the Caprae Capital internship evaluation and is not intended for production use.
+
+---
+
+### 🙏 Built with ❤️ by Harsh Vardhan Chauhan
+
